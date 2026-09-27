@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hamza Khan — Unity 3D Developer</title>
+  <meta name="description" content="Hamza Khan is a Unity 3D developer with 2+ years of experience building Android games and 11 games shipped on Google Play — simulators, action, casual and sports titles.">
+  <meta property="og:title" content="Hamza Khan — Unity 3D Developer">
+  <meta property="og:description" content="Unity 3D developer with 11 titles shipped on Google Play.">
+  <meta property="og:image" content="assets/games/open-world-car.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a href="#top" class="nav__logo" aria-label="Hamza Khan, home">HK<span>.</span></a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+      <nav id="nav-links" class="nav__links">
+        <a href="#games">Games</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav__cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="dot"></span> Available for new projects</p>
+          <h1>Hamza Khan<br><span class="accent">Unity 3D Developer</span></h1>
+          <p class="lede">I build Android games in Unity and C# — driving and bus simulators, open-world action, casual runners and sports titles. Strong in gameplay systems, performance optimization and multiplayer. Two years in, eleven games live on Google Play.</p>
+          <div class="hero__actions">
+            <a href="#games" class="btn btn--primary">See my games</a>
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+          <dl class="stats">
+            <div><dt>Years experience</dt><dd>2+</dd></div>
+            <div><dt>Games shipped</dt><dd>11</dd></div>
+            <div><dt>Studios</dt><dd>4</dd></div>
+          </dl>
+        </div>
+        <div class="hero__art" aria-hidden="true">
+          <img src="assets/games/open-world-car.png" alt="" class="tile t1">
+          <img src="assets/games/gangster.png" alt="" class="tile t2">
+          <img src="assets/games/flight-pilot.png" alt="" class="tile t3">
+          <img src="assets/games/padel.png" alt="" class="tile t4">
+          <img src="assets/games/offroad-bus.png" alt="" class="tile t5">
+          <img src="assets/games/monster-hero.png" alt="" class="tile t6">
+        </div>
+      </div>
+    </section>
+
+    <!-- GAMES -->
+    <section class="section" id="games">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="kicker">01 — Portfolio</p>
+          <h2>Games on Google Play</h2>
+          <p class="section__sub">A selection of titles I've worked on. Tap any card to open it in the Play Store.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter games by genre">
+          <button class="chip is-active" data-filter="all">All <span>11</span></button>
+          <button class="chip" data-filter="simulation">Simulation <span>6</span></button>
+          <button class="chip" data-filter="action">Action <span>2</span></button>
+          <button class="chip" data-filter="casual">Casual <span>2</span></button>
+          <button class="chip" data-filter="sports">Sports <span>1</span></button>
+        </div>
+
+        <ul class="games">
+          <li class="game" data-genre="simulation">
+            <a href="https://play.google.com/store/apps/details?id=com.sg.dubai.car.simulator.game.car.driving.game" target="_blank" rel="noopener">
+              <img src="assets/games/open-world-car.png" alt="Open World Car Adventure 3D icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Simulation</span>
+                <h3>Open World Car Adventure 3D</h3>
+                <p>Free-roam city driving with missions and a full open world to explore.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="simulation">
+            <a href="https://play.google.com/store/apps/details?id=com.mzth.crashsimulator.drivegame.carsim" target="_blank" rel="noopener">
+              <img src="assets/games/car-crash.png" alt="Car Crash Simulator 3D Drive icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Simulation</span>
+                <h3>Car Crash Simulator 3D Drive</h3>
+                <p>Physics-driven car crashes, ramps and destruction.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="action">
+            <a href="https://play.google.com/store/apps/details?id=com.sg.open.world.gangster.game" target="_blank" rel="noopener">
+              <img src="assets/games/gangster.png" alt="Gangster Crime City Mafia Game icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Action</span>
+                <h3>Gangster Crime City Mafia</h3>
+                <p>Open-world crime action with vehicles, combat and city missions.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="action">
+            <a href="https://play.google.com/store/apps/details?id=com.grs.gianthero.incrediblehero.herogame" target="_blank" rel="noopener">
+              <img src="assets/games/monster-hero.png" alt="Incredible Monster Hero Rescue icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Action</span>
+                <h3>Incredible Monster Hero Rescue</h3>
+                <p>Play as a giant hero smashing through the city on rescue missions.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="simulation">
+            <a href="https://play.google.com/store/apps/details?id=com.fg.real.plane.game.airport.games" target="_blank" rel="noopener">
+              <img src="assets/games/flight-pilot.png" alt="Flight Pilot: Airplane Games icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Simulation</span>
+                <h3>Flight Pilot: Airplane Games</h3>
+                <p>Take off, fly and land passenger planes across airports.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="sports">
+            <a href="https://play.google.com/store/apps/details?id=com.provelopers.padalsim" target="_blank" rel="noopener">
+              <img src="assets/games/padel.png" alt="Padel Simulator 3D Sports Game icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Sports</span>
+                <h3>Padel Simulator 3D</h3>
+                <p>3D padel matches with responsive shot controls.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="simulation">
+            <a href="https://play.google.com/store/apps/details?id=com.fg.offroad.bus.simulator.games" target="_blank" rel="noopener">
+              <img src="assets/games/offroad-bus.png" alt="Offroad Bus Sim: Bus Games 3D icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Simulation</span>
+                <h3>Offroad Bus Sim 3D</h3>
+                <p>Drive passengers through mountain and off-road routes.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="simulation">
+            <a href="https://play.google.com/store/apps/details?id=com.gnc.mini.coachbus.euro.bus.games" target="_blank" rel="noopener">
+              <img src="assets/games/euro-bus.png" alt="Mini Coach Bus: Euro Bus Games icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Simulation</span>
+                <h3>Mini Coach Bus: Euro Bus</h3>
+                <p>European city routes in a compact coach bus.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="simulation">
+            <a href="https://play.google.com/store/apps/details?id=com.fg.mini.coach.bus.driving.game.mini.bus.game" target="_blank" rel="noopener">
+              <img src="assets/games/mini-coach.png" alt="Mini Coach Simulator Bus Games icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Simulation</span>
+                <h3>Mini Coach Simulator</h3>
+                <p>Pick-up and drop-off bus driving with multiple levels.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="casual">
+            <a href="https://play.google.com/store/apps/details?id=com.sg.food.cooking.restaurantgames" target="_blank" rel="noopener">
+              <img src="assets/games/cooking.png" alt="Cooking Games: Restaurant Game icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Casual</span>
+                <h3>Cooking Games: Restaurant</h3>
+                <p>Time-management cooking — serve customers and grow your restaurant.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li class="game" data-genre="casual">
+            <a href="https://play.google.com/store/apps/details?id=com.fg.makeup.games.makeover.runner" target="_blank" rel="noopener">
+              <img src="assets/games/makeover-runner.png" alt="Makeover Runner: Girls Games icon" loading="lazy" width="256" height="256">
+              <div class="game__body">
+                <span class="tag">Casual</span>
+                <h3>Makeover Runner</h3>
+                <p>Hyper-casual runner — collect items and style your look on the go.</p>
+              </div>
+              <span class="game__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section--alt" id="skills">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="kicker">02 — Skills</p>
+          <h2>Skills</h2>
+          <p class="section__sub">What I bring to a Unity team, from the first prototype to a live Play Store release.</p>
+        </div>
+
+        <div class="skills">
+          <article class="skill">
+            <h3>Unity &amp; C#</h3>
+            <ul class="skill__list">
+              <li>Unity 3D — scenes, prefabs and core engine workflow</li>
+              <li>Clean, reusable C# gameplay code</li>
+              <li>Debugging and profiling on real devices</li>
+            </ul>
+          </article>
+          <article class="skill">
+            <h3>Gameplay systems</h3>
+            <ul class="skill__list">
+              <li>Player, vehicle and mission systems for simulators and action games</li>
+              <li>Customizing RCC (vehicles) and JU-TPS (third-person) controllers</li>
+              <li>Menus, HUDs and level flow</li>
+            </ul>
+          </article>
+          <article class="skill">
+            <h3>Physics &amp; animation</h3>
+            <ul class="skill__list">
+              <li>Physics interactions — rigidbodies, collisions and triggers</li>
+              <li>Animator controllers and state machines</li>
+              <li>Blend trees for smooth character movement</li>
+            </ul>
+          </article>
+          <article class="skill">
+            <h3>Multiplayer</h3>
+            <ul class="skill__list">
+              <li>Real-time multiplayer with Photon PUN 2</li>
+              <li>Rooms, matchmaking and player sync</li>
+              <li>Built a complete multiplayer system end to end</li>
+            </ul>
+          </article>
+          <article class="skill">
+            <h3>Mobile performance</h3>
+            <ul class="skill__list">
+              <li>FPS and memory optimization for low-end Android devices</li>
+              <li>Asset optimization to keep builds small</li>
+              <li>AdMob and Unity Ads integration and testing</li>
+            </ul>
+          </article>
+          <article class="skill">
+            <h3>Live games &amp; teamwork</h3>
+            <ul class="skill__list">
+              <li>Shipping updates and Play Store releases for live games</li>
+              <li>Git and GitHub for feature integration</li>
+              <li>Agile teams with 3D artists, designers and ASO</li>
+            </ul>
+          </article>
+        </div>
+
+        <ul class="tools" aria-label="Tools and technologies">
+          <li>Unity 3D</li><li>C#</li><li>Photon PUN 2</li><li>Android</li><li>AdMob</li><li>Unity Ads</li><li>RCC</li><li>JU-TPS</li><li>GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="kicker">03 — Career</p>
+          <h2>Experience</h2>
+          <p class="section__sub">From intern to game developer in two years, across four studios.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="job is-current">
+            <div class="job__when">Jul 2026 — Present</div>
+            <div class="job__what">
+              <h3>Game Developer</h3>
+              <p class="job__where">Gaming Rush Studio</p>
+              <ul class="job__points">
+                <li>Ship regular updates for live Android games on Google Play.</li>
+                <li>Add new features, levels and content to keep players coming back.</li>
+                <li>Fix bugs and improve performance and stability between releases.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="job">
+            <div class="job__when">Feb 2026 — Jul 2026</div>
+            <div class="job__what">
+              <h3>Associate Unity 3D Developer</h3>
+              <p class="job__where">Provelopers</p>
+              <ul class="job__points">
+                <li>Built a complete real-time multiplayer system in Unity with Photon PUN 2.</li>
+                <li>Developed gameplay systems, UI and updates across several Unity projects.</li>
+                <li>Merged features with the team lead and other developers through GitHub.</li>
+                <li>Worked in an agile team with task-based sprints.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="job">
+            <div class="job__when">Aug 2025 — Jan 2026</div>
+            <div class="job__what">
+              <h3>Junior Unity 3D Developer</h3>
+              <p class="job__where">Innovative Tech Inc.</p>
+              <ul class="job__points">
+                <li>Adapted RCC and JU-TPS controllers for simulation and action games.</li>
+                <li>Raised FPS on mobile by optimizing assets and tracking memory use.</li>
+                <li>Built character animation with Animator Controllers, blend trees and state transitions.</li>
+                <li>Integrated and tested AdMob and Unity Ads.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="job">
+            <div class="job__when">Jun 2024 — Aug 2025</div>
+            <div class="job__what">
+              <h3>Unity Developer (Intern → Full-time)</h3>
+              <p class="job__where">Logic Rack Inc.</p>
+              <ul class="job__points">
+                <li>Started as an intern learning Unity 3D and C# on real production games.</li>
+                <li>Built gameplay features, levels and UI for mobile titles.</li>
+                <li>Moved to a full-time developer role based on my work.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+
+        <div class="edu">
+          <p class="kicker">Education</p>
+          <h3>BS Information Technology</h3>
+          <p class="job__where">The Islamia University of Bahawalpur</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--contact" id="contact">
+      <div class="wrap contact">
+        <div>
+          <p class="kicker">04 — Contact</p>
+          <h2>Let's build your next game.</h2>
+          <p class="section__sub">Open to full-time roles, freelance work and collaborations. The fastest way to reach me is email or WhatsApp.</p>
+        </div>
+        <ul class="contact__list">
+          <li>
+            <a href="mailto:hmza.langah@gmail.com">
+              <span class="contact__label">Email</span>
+              <span class="contact__value">hmza.langah@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/923182002875" target="_blank" rel="noopener">
+              <span class="contact__label">WhatsApp</span>
+              <span class="contact__value">+92 318 2002875</span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+923182002875">
+              <span class="contact__label">Phone</span>
+              <span class="contact__value">+92 318 2002875</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/muhammad-hamza-6bb555379" target="_blank" rel="noopener">
+              <span class="contact__label">LinkedIn</span>
+              <span class="contact__value">in/muhammad-hamza</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© <span id="year">2026</span> Hamza Khan</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
